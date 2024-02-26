@@ -1,4 +1,3 @@
-
 import socket
 import os
 import logging
@@ -31,22 +30,29 @@ def handle_client(client_socket, client_address):
 
     # Mantener la conexión mientras el cliente no escriba 'exit'
     while True:
-        # Recibir mensaje del cliente
-        message = client_socket.recv(1024).decode('utf-8')
-        print("EL MENSAJE INTRODUCIDO ES: " + message)
-        EXIT_MSG = "exit"
-        print(EXIT_MSG, message)
+        try:
+            # Recibir mensaje del cliente
+            message = client_socket.recv(1024).decode('utf-8')
+            print("EL MENSAJE INTRODUCIDO ES: " + message)
+            EXIT_MSG = "exit"
+            print(EXIT_MSG, message)
 
-        if message == EXIT_MSG:
+            if message == EXIT_MSG:
+                print(f"Cliente {client_address} se desconectó.")
+                break
+
+            print(f"Mensaje de {client_address}: {message}")
+            logging.info(f'[+] {client_address} CMD Received: {message}')
+
+            # Enviar respuesta al cliente
+            response = "Recibido desde el SERVER\n > "
+            client_socket.send(response.encode('utf-8'))
+
+        except UnicodeDecodeError as e:
+            # print(f"Error al decodificar el mensaje: {e}")
             print(f"Cliente {client_address} se desconectó.")
+            logging.info(f'[-] {client_address} CLIENT DISCONNECTED')
             break
-
-        print(f"Mensaje de {client_address}: {message}")
-        logging.info(f'[+] {client_address} CMD Received: {message}')
-
-        # Enviar respuesta al cliente
-        response = "Recibido desde el SERVER\n > "
-        client_socket.send(response.encode('utf-8'))
 
     # Cerrar la conexión con el cliente
     client_socket.close()
@@ -56,15 +62,25 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((host, port))
 
 # Permitir hasta 5 conexiones en cola
-server_socket.listen(5)
+server_socket.listen()
 
 print(f"Servidor TCP escuchando en {host}:{port}")
 logging.info(f"[+] ({host}:{port}) TCP SERVER LISTENING ...")
 
-while True:
-    # Esperar una conexión entrante
-    client_socket, client_address = server_socket.accept()
+try:
+    while True:
+        # Esperar una conexión entrante
+        client_socket, client_address = server_socket.accept()
 
-    # Iniciar un hilo para manejar la conexión
-    client_thread = threading.Thread(target=handle_client, args=(client_socket, client_address))
-    client_thread.start()
+        # Iniciar un hilo para manejar la conexión
+        client_thread = threading.Thread(target=handle_client, args=(client_socket, client_address))
+        client_thread.start()
+except KeyboardInterrupt:
+    print("Servidor detenido por el usuario.")
+    logging.info("Servidor detenido por el usuario.")
+    # Cerrar el socket del servidor
+    server_socket.close()
+    # Esperar a que todos los hilos terminen antes de salir
+    threading.Event().wait()
+
+

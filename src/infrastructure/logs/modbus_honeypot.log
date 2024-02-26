@@ -89,3 +89,120 @@
 
 2024-02-26 14:29:42,144 - root - INFO - [+] ('127.0.0.1', 53962) CMD Received: exit
 
+2024-02-26 14:37:07,236 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 14:37:09,628 - root - INFO - [+] ('127.0.0.1', 43288) New Connection.
+2024-02-26 14:37:10,376 - root - INFO - [+] ('127.0.0.1', 43288) CMD Received: asd
+
+2024-02-26 14:37:10,968 - root - INFO - [+] ('127.0.0.1', 43288) CMD Received: asd
+
+2024-02-26 14:37:17,650 - root - INFO - [+] ('127.0.0.1', 44224) New Connection.
+2024-02-26 14:37:18,281 - root - INFO - [+] ('127.0.0.1', 44224) CMD Received: asd
+
+2024-02-26 14:37:18,744 - root - INFO - [+] ('127.0.0.1', 44224) CMD Received: asd
+
+2024-02-26 14:37:19,442 - root - INFO - [+] ('127.0.0.1', 44224) CMD Received: zxc
+
+2024-02-26 14:37:21,696 - root - INFO - [+] ('127.0.0.1', 43288) CMD Received: dfs
+
+2024-02-26 14:37:22,863 - root - INFO - [+] ('127.0.0.1', 43288) CMD Received: sfs
+
+2024-02-26 14:37:24,472 - root - INFO - [+] ('127.0.0.1', 43288) CMD Received: exit
+
+2024-02-26 15:22:45,123 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:22:46,998 - root - INFO - [+] ('127.0.0.1', 38070) New Connection.
+2024-02-26 15:22:48,606 - root - INFO - [+] ('127.0.0.1', 38070) CMD Received: wer
+
+2024-02-26 15:22:50,669 - root - INFO - [+] ('127.0.0.1', 38070) CMD Received: exit
+
+2024-02-26 15:32:34,007 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:32:36,321 - root - INFO - [+] ('127.0.0.1', 54248) New Connection.
+2024-02-26 15:32:40,409 - root - INFO - [+] ('127.0.0.1', 38830) New Connection.
+2024-02-26 15:32:43,301 - root - INFO - [+] ('127.0.0.1', 54248) CMD Received: gh
+
+2024-02-26 15:32:45,549 - root - INFO - [+] ('127.0.0.1', 38830) CMD Received: sdf
+
+2024-02-26 15:34:26,060 - root - INFO - [+] ('127.0.0.1', 54248) CMD Received: sdf
+
+2024-02-26 15:34:28,189 - root - INFO - [+] ('127.0.0.1', 54248) CMD Received: sfsf
+
+2024-02-26 15:34:29,437 - root - INFO - [+] ('127.0.0.1', 38830) CMD Received: sdf
+
+2024-02-26 15:34:30,132 - root - INFO - [+] ('127.0.0.1', 38830) CMD Received: sf
+
+2024-02-26 15:37:45,444 - root - INFO - [+] ('127.0.0.1', 54248) CMD Received: a
+
+2024-02-26 15:42:27,013 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:42:30,032 - root - INFO - [+] ('127.0.0.1', 41538) New Connection.
+2024-02-26 15:43:46,746 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:43:49,871 - root - INFO - [+] ('127.0.0.1', 43410) New Connection.
+2024-02-26 15:45:46,901 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:45:49,032 - root - INFO - [+] ('127.0.0.1', 37548) New Connection.
+2024-02-26 15:45:52,365 - root - INFO - [-] ('127.0.0.1', 37548) CLIENT DISCONNECTED
+2024-02-26 15:46:02,684 - root - INFO - [+] ('127.0.0.1', 48188) New Connection.
+2024-02-26 15:46:04,892 - root - INFO - [+] ('127.0.0.1', 48188) CMD Received: asdasd
+
+2024-02-26 15:46:06,364 - root - INFO - [+] ('127.0.0.1', 48188) CMD Received: asdasd
+
+2024-02-26 15:46:08,864 - root - INFO - [-] ('127.0.0.1', 48188) CLIENT DISCONNECTED
+2024-02-26 15:46:12,968 - root - INFO - [+] ('127.0.0.1', 55880) New Connection.
+2024-02-26 15:46:15,068 - root - INFO - [+] ('127.0.0.1', 55880) CMD Received: asdad
+
+2024-02-26 15:46:18,020 - root - INFO - [+] ('127.0.0.1', 55880) CMD Received: zxc
+
+2024-02-26 15:46:19,412 - root - INFO - [-] ('127.0.0.1', 55880) CLIENT DISCONNECTED
+2024-02-26 15:47:26,807 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:47:30,362 - root - INFO - [+] ('127.0.0.1', 32816) New Connection.
+2024-02-26 15:47:31,813 - root - INFO - [+] ('127.0.0.1', 32816) CMD Received: asd
+
+2024-02-26 15:47:32,357 - root - INFO - [+] ('127.0.0.1', 32816) CMD Received: asd
+
+2024-02-26 15:47:32,813 - root - INFO - [+] ('127.0.0.1', 32816) CMD Received: asd
+
+2024-02-26 15:47:33,173 - root - INFO - [+] ('127.0.0.1', 32816) CMD Received: asd
+
+2024-02-26 15:47:34,677 - root - INFO - [+] ('127.0.0.1', 32816) CMD Received: hola
+
+2024-02-26 15:47:36,749 - root - INFO - [+] ('127.0.0.1', 32816) CMD Received: exit
+
+2024-02-26 15:47:38,101 - root - INFO - [-] ('127.0.0.1', 32816) CLIENT DISCONNECTED
+2024-02-26 15:47:44,697 - root - INFO - [+] ('127.0.0.1', 59700) New Connection.
+2024-02-26 15:47:48,710 - root - INFO - [+] ('127.0.0.1', 59700) CMD Received: zc
+
+2024-02-26 15:47:49,453 - root - INFO - [+] ('127.0.0.1', 59700) CMD Received: zcx
+
+2024-02-26 15:47:50,509 - root - INFO - [-] ('127.0.0.1', 59700) CLIENT DISCONNECTED
+2024-02-26 15:51:43,303 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:51:45,050 - root - INFO - [+] ('127.0.0.1', 48200) New Connection.
+2024-02-26 15:51:46,319 - root - INFO - [+] ('127.0.0.1', 48200) CMD Received: asd
+
+2024-02-26 15:51:46,791 - root - INFO - [+] ('127.0.0.1', 48200) CMD Received: asd
+
+2024-02-26 15:51:47,615 - root - INFO - [+] ('127.0.0.1', 48200) CMD Received: ads
+
+2024-02-26 15:51:48,345 - root - INFO - [-] ('127.0.0.1', 48200) CLIENT DISCONNECTED
+2024-02-26 15:51:50,265 - root - INFO - [+] SERVER SHUTDOWN
+2024-02-26 15:53:35,357 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 15:53:37,291 - root - INFO - [+] ('127.0.0.1', 60286) New Connection.
+2024-02-26 15:53:39,540 - root - INFO - [+] ('127.0.0.1', 46106) New Connection.
+2024-02-26 15:53:43,656 - root - INFO - [+] ('127.0.0.1', 60286) CMD Received: asd
+
+2024-02-26 15:53:44,405 - root - INFO - [-] ('127.0.0.1', 60286) CLIENT DISCONNECTED
+2024-02-26 15:53:46,009 - root - INFO - [+] ('127.0.0.1', 46106) CMD Received: asd
+
+2024-02-26 15:53:47,639 - root - INFO - [+] ('127.0.0.1', 46106) CMD Received: asd
+
+2024-02-26 15:53:48,796 - root - INFO - [-] ('127.0.0.1', 46106) CLIENT DISCONNECTED
+2024-02-26 15:53:50,388 - root - INFO - Servidor detenido por el usuario.
+2024-02-26 16:24:02,414 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 16:24:08,171 - root - INFO - [+] ('127.0.0.1', 50588) New Connection.
+2024-02-26 16:24:10,431 - root - INFO - [+] ('127.0.0.1', 50598) New Connection.
+2024-02-26 16:24:12,108 - root - INFO - [+] ('127.0.0.1', 50588) CMD Received: asd
+
+2024-02-26 16:24:13,327 - root - INFO - [+] ('127.0.0.1', 50598) CMD Received: 
+
+2024-02-26 16:24:14,956 - root - INFO - [+] ('127.0.0.1', 50598) CMD Received: asasd
+
+2024-02-26 16:24:16,681 - root - INFO - [+] ('127.0.0.1', 50588) CMD Received: 
+
+2024-02-26 16:24:18,080 - root - INFO - [+] ('127.0.0.1', 50598) CMD Received: 
+
