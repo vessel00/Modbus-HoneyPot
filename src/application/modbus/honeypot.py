@@ -1,3 +1,4 @@
+
 import socket
 import os
 import logging
@@ -32,8 +33,11 @@ def handle_client(client_socket, client_address):
     while True:
         # Recibir mensaje del cliente
         message = client_socket.recv(1024).decode('utf-8')
+        print("EL MENSAJE INTRODUCIDO ES: " + message)
+        EXIT_MSG = "exit"
+        print(EXIT_MSG, message)
 
-        if message.lower() == 'exit':
+        if message == EXIT_MSG:
             print(f"Cliente {client_address} se desconectó.")
             break
 
