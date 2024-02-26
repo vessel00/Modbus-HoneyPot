@@ -1,0 +1,15 @@
+2024-02-26 13:37:11,186 - root - INFO - [+] (127.0.0.1:8080) TCP SERVER LISTENING ...
+2024-02-26 13:37:13,447 - root - INFO - [+] ('127.0.0.1', 44102) New Connection.
+2024-02-26 13:37:43,779 - root - INFO - [+] ('127.0.0.1', 44102) CMD Received: hola
+
+2024-02-26 13:37:45,611 - root - INFO - [+] ('127.0.0.1', 44102) CMD Received: ewr
+
+2024-02-26 13:37:51,655 - root - INFO - [+] ('127.0.0.1', 46684) New Connection.
+2024-02-26 13:37:53,571 - root - INFO - [+] ('127.0.0.1', 46684) CMD Received: wer
+
+2024-02-26 13:37:54,523 - root - INFO - [+] ('127.0.0.1', 46684) CMD Received: fdg
+
+2024-02-26 13:37:56,884 - root - INFO - [+] ('127.0.0.1', 44102) CMD Received: dfg
+
+2024-02-26 13:37:58,635 - root - INFO - [+] ('127.0.0.1', 46684) CMD Received: dfg
+

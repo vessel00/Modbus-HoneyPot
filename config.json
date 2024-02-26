@@ -13,7 +13,7 @@
     
     "modbus":{
       "log_file" : "/src/infrastructure/logs/modbus_honeypot.log",
-      "welcome_msg_client": "Welcome to the SERVER",
+      "welcome_msg_client": "¡WELCOME TO THE SERVER!.\n > ",
       "host" : "127.0.0.1",
       "port" : 8080
     }

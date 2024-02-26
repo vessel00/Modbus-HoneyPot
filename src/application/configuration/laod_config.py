@@ -23,7 +23,7 @@ def cargar_seccion_modbus(ruta_archivo):
         with open(ruta_archivo, 'r') as archivo:
             diccionario_config = json.load(archivo)
 
-        # Verificar si la sección 'ssh' existe en el diccionario cargado
+        # Verificar si la sección 'modbus' existe en el diccionario cargado
         if "modbus" in diccionario_config:
             ssh_section = diccionario_config["modbus"]
             return ssh_section
